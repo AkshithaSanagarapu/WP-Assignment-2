@@ -1,0 +1,171 @@
+/* TRAVEL ADVENTURES COLOR PALETTE 
+Deep Teal: #174C4F 
+Ocean Blue: #287A8A 
+Warm Sand: #E8C07D 
+Soft Cream: #F8F5EE 
+White: #FFFFFF 
+Dark Gray: #333333 
+This color palette was chosen to create a calm, warm, and travel-inspired appearance. */
+/* Styles for the entire webpage */
+body 
+{
+    background-color: #F8F5EE;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* Centers the main website content */
+.container 
+{
+    width: 85%;
+    max-width: 950px;
+    margin: auto;
+    text-align: center;
+}
+/* Styles for the header section */
+.header 
+{
+    padding: 35px 20px 20px 20px;
+}
+/* Styles for the main website heading */
+h1 
+{
+    color: #174C4F;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+/* Styles for the subtitle under the heading */
+.subtitle 
+{
+    color: #287A8A;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 5px;
+}
+/* Styles for the navigation bar */
+.navigation 
+{
+    background-color: #174C4F;
+    padding: 16px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+/* Styles for the navigation links */
+.navigation a 
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 18px;
+}
+/* Changes navigation link color when hovered */
+.navigation a:hover 
+{
+    color: #E8C07D;
+}
+/* Styles the main images */
+.main-image 
+{
+    width: 75%;
+    max-width: 600px;
+    border-radius: 14px;
+    margin-bottom: 25px;
+}
+/* Creates white cards for the main content */
+.content-card 
+{
+    background-color: #FFFFFF;
+    padding: 30px 40px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+}
+/* Styles second-level headings */
+h2 
+{
+    color: #174C4F;
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+/* Styles paragraph one differently */
+.paragraph-one 
+{
+    color: #174C4F;
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: left;
+}
+/* Styles paragraph two differently */
+.paragraph-two 
+{
+    color: #287A8A;
+    font-style: italic;
+    line-height: 1.7;
+    text-align: left;
+}
+/* Styles paragraph three differently */
+.paragraph-three 
+{
+    color: #333333;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;
+}
+/* Styles the destination bulleted list */
+.destination-list 
+{
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+}
+/* Styles the table */
+table 
+{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+/* Styles table cells */
+th,td 
+{
+    border: 1px solid #174C4F;
+    padding: 12px;
+}
+/* Styles table headings */
+th 
+{
+    background-color: #174C4F;
+    color: #FFFFFF;
+}
+/* Styles the social media section */
+.social-section 
+{
+    background-color: #E8C07D;
+    padding: 28px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+}
+/* Styles the LinkedIn button */
+.social-button 
+{
+    display: inline-block;
+    background-color: #174C4F;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 11px 22px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+/* Changes the LinkedIn button color on hover */
+.social-button:hover 
+{
+    background-color: #287A8A;
+}
+/* Styles the footer */
+.footer 
+{
+    color: #174C4F;
+    font-size: 14px;
+    padding: 15px;
+}
